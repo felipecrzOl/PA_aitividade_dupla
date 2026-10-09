@@ -1,0 +1,13 @@
+body {
+    background-image:url("assets/tucano.jpg")
+}
+
+h1 {
+    font-size: 100px;
+    color:brown
+}
+
+p {
+    font-size: 20px;
+    color:rgb(19, 82, 61)
+}
