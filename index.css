@@ -1,5 +1,17 @@
 body{
-    background-image: url("assets/animais.jpg")
+    background-image: url("assets/animais.jpg");
+    /* Fixa a imagem mesmo com zoom */
+    background-attachment: fixed;
+    
+    /* A imagem cobre toda a página, mantém a proporção */
+    background-size: cover;
+
+    /* centraliza a imagem */
+
+    background-position: center;
+
+    /* Não deixe repetir a imagem  */
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 80px;
