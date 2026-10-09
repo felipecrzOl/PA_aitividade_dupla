@@ -1,3 +1,6 @@
+body{
+    background-image: url("assets/animais.jpg")
+}
 h1{
     font-size: 80px;
 }
@@ -6,4 +9,5 @@ p{
     font-size: 20px;
     color:brown
 }
+
 
