@@ -1,5 +1,10 @@
 body {
-    background-image:url("assets/tucano.jpg")
+    background-image:url("assets/tucano.jpg");
+    background-size: cover;
+    /* background-size: cover; imagem cobre toda a pagina, mantem a proporção.
+    background-position: center; centraliza a imagem na tela.
+    background-repeat: no-repeat; Não repete a imagem.
+    background-attachment: fixed; fixa imagem, mesmo com zoom.*/
 }
 
 h1 {
