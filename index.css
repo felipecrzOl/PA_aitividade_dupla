@@ -1,6 +1,10 @@
 body{
-    background-image: url("assets/animais.jpg");
+    background-image: url("assets/Principal.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    width: 100%;
     /* Fixa imagem, mesmo com zoom. */
     /* background-attachment: fixed; */
 
@@ -14,8 +18,19 @@ body{
     /* background-repeat: no-repeat; */
 }
 
-h1{
-    font-size: 80px;
+.topo{
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+}
+
+.topo h1{
+    font-size: 100px;
+    color:rgb(19, 82, 61);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 65px;
 }
 
 p{
